@@ -24,7 +24,7 @@
 	</div>
 	<ul class="flex flex-wrap my-20 gap-x-0 gap-y-4 sm:gap-4 justify-between sm:justify-center">
 		{#each logos as logo}
-			<li class="min-w-24 w-5/12 sm:w-1/6 max-w-52 sm:max-w-28 px-4 sm:px-0 box-border">
+			<li class="min-w-24 w-[48%] sm:w-1/6 max-w-52 sm:max-w-28 px-4 sm:px-0 box-border">
 				<img src={logo} alt="logo" class="w-full h-full object-scale-down" />
 			</li>
 		{/each}
