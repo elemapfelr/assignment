@@ -5,19 +5,19 @@
 	let menus = [
 		{
 			title: 'Products',
-			link: '/Products'
+			link: '/'
 		},
 		{
 			title: 'Industries',
-			link: '/Industries'
+			link: '/'
 		},
 		{
 			title: 'Resources',
-			link: '/Resources'
+			link: '/'
 		},
 		{
 			title: 'Blog',
-			link: '/Blog'
+			link: '/'
 		}
 	];
 </script>
@@ -33,7 +33,7 @@
 				<li class="text-sm"><a href={menu.link}>{menu.title}</a></li>
 			{/each}
 		</ul>
-		<a href="/Login" class="hidden md:inline text-sm mr-10">Login</a>
+		<a href="/" class="hidden md:inline text-sm mr-10">Login</a>
 		<button class="hidden md:inline bg-orange-500 px-2 py-1 rounded-md text-sm text-white"
 			>Contact Sales</button
 		>
