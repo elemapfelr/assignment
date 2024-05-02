@@ -5,19 +5,19 @@
 	let menus = [
 		{
 			title: 'Products',
-			link: '/'
+			link: 'javascript:void(0);'
 		},
 		{
 			title: 'Industries',
-			link: '/'
+			link: 'javascript:void(0);'
 		},
 		{
 			title: 'Resources',
-			link: '/'
+			link: 'javascript:void(0);'
 		},
 		{
 			title: 'Blog',
-			link: '/'
+			link: 'javascript:void(0);'
 		}
 	];
 </script>
@@ -26,14 +26,14 @@
 	<nav
 		class="w-11/12 flex justify-between md:justify-normal mx-auto border-gray-200 border rounded-md shadow-slate-200 shadow-md p-2 items-center bg-white"
 	>
-		<a href="/"><img src={logo} alt="logo" /></a>
+		<a href="javascript:void(0);"><img src={logo} alt="logo" /></a>
 		<!-- PC -->
 		<ul class="hidden md:flex ml-10 gap-8 items-center flex-1">
 			{#each menus as menu}
 				<li class="text-sm"><a href={menu.link}>{menu.title}</a></li>
 			{/each}
 		</ul>
-		<a href="/" class="hidden md:inline text-sm mr-10">Login</a>
+		<a href="javascript:void(0);" class="hidden md:inline text-sm mr-10">Login</a>
 		<button class="hidden md:inline bg-orange-500 px-2 py-1 rounded-md text-sm text-white"
 			>Contact Sales</button
 		>

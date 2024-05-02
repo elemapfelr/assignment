@@ -4,7 +4,7 @@
 </script>
 
 <article class="pt-12 sm:pt-40 md:pt-20 lg:pt-24 xl:pt-40 flex items-center flex-col">
-	<a href="/" class="flex items-center gap-x-2 bg-gray-100 p-px rounded border border-gray-200">
+	<a href="javascript:void(0);" class="flex items-center gap-x-2 bg-gray-100 p-px rounded border border-gray-200">
 		<span class="text-xs text-white bg-indigo-600 px-1 rounded">NEW</span>
 		<p class="text-xs">Raising €35 million ❞</p>
 	</a>
